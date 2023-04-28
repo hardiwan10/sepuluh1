@@ -33,99 +33,103 @@
 
     <!-- Contact -->
     <section id="contact">
-      <div class="container">
-        <div class="row text-center mb-1">
-          <div class="col">
-            <h3 class="pt-2">Data Peserta Didik</h3>
-          </div>
-        </div>
+      <div class="container py-2">
         <div class="row justify-content-center">
-          <div class="col-md-6">
-            <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
-              <strong>Terima Kasih!</strong> Data Ananda sudah terekam!!
-              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          <div class="card text-bg-primary" style="max-width: 30rem">
+            <div class="row text-center mb-1">
+              <div class="col">
+                <h3 class="pt-2">Data Peserta Didik</h3>
+              </div>
             </div>
-            <p>Silahkan lengkapi data berikut ini!</p>
-            <form name="contact-form">
-              <div class="mb-3">
-                <label for="Name" class="form-label">Nama Lengkap</label><span> </span><i class="bi bi-pencil"></i><span> </span><strong><label style="color: rgb(245, 10, 10)">*</label></strong>
-                <select class="form-select" aria-label="Default select example" name="nama" required autocomplete="off" autofocus>
-                  <option selected></option>
-                  <option value="AFDALIA RAMADHANI">AFDALIA RAMADHANI</option>
-                  <option value="AHMAD NAJI GHASSAN">AHMAD NAJI GHASSAN</option>
-                  <option value="ANDI MUH. ARIEF GUFRAN">ANDI MUH. ARIEF GUFRAN</option>
-                  <option value="ARIFATUL HUSNA">ARIFATUL HUSNA</option>
-                  <option value="ASDAR WIJAYA">ASDAR WIJAYA</option>
-                  <option value="ASRI MAHENDRA">ASRI MAHENDRA</option>
-                  <option value="BAHRUL ULUM BURHAN">BAHRUL ULUM BURHAN</option>
-                  <option value="FARAH NUR KHOIRUN NISA">FARAH NUR KHOIRUN NISA</option>
-                  <option value="FURQAN ALIM PRATAMA">FURQAN ALIM PRATAMA</option>
-                  <option value="HADIRATUL AWALIAH">HADIRATUL AWALIAH</option>
-                  <option value="HAERUN ANNISA">HAERUN ANNISA</option>
-                  <option value="KHAERUNNISYA">KHAERUNNISYA</option>
-                  <option value="M. ADRIAN MAULANA A">M. ADRIAN MAULANA A</option>
-                  <option value="M. AINUR RAFI">M. AINUR RAFI</option>
-                  <option value="MIFTAHUL KHAERAH NUR">MIFTAHUL KHAERAH NUR</option>
-                  <option value="MUH NURUL TAWAF">MUH NURUL TAWAF</option>
-                  <option value="MUH RASYA MAULDIANSAH">MUH RASYA MAULDIANSAH</option>
-                  <option value="MUH. DINUL ISLAM">MUH. DINUL ISLAM</option>
-                  <option value="MUH. IRHAM SYAPUTRA">MUH. IRHAM SYAPUTRA</option>
-                  <option value="MUH. RAIHAN ARIEF CAMA">MUH. RAIHAN ARIEF CAMA</option>
-                  <option value="MUH. REZKY DERMAWAN">MUH. REZKY DERMAWAN</option>
-                  <option value="MUHAMMAD ADIL">MUHAMMAD ADIL</option>
-                  <option value="MUTHIA FIRMAN">MUTHIA FIRMAN</option>
-                  <option value="NABILA SALSABILA">NABILA SALSABILA</option>
-                  <option value="NADIA AFNANIA TAUHID">NADIA AFNANIA TAUHID</option>
-                  <option value="NUR KAMARIAH">NUR KAMARIAH</option>
-                  <option value="NUR RIZQI ARIFANI HAFID">NUR RIZQI ARIFANI HAFID</option>
-                  <option value="NURUL SYIFA AZZAHRA">NURUL SYIFA AZZAHRA</option>
-                  <option value="PUTRI ANASTASYA">PUTRI ANASTASYA</option>
-                  <option value="PUTRI MUTMAINNAH">PUTRI MUTMAINNAH</option>
-                  <option value="RISDA NURAZIZAH">RISDA NURAZIZAH</option>
-                  <option value="SALSABILA">SALSABILA</option>
-                  <option value="SRI RESKI AMALIA">SRI RESKI AMALIA</option>
-                  <option value="SRI WAHYUNI">SRI WAHYUNI</option>
-                </select>
-              </div>
-              <div class="mb-3">
-                <label for="email" class="form-label">Email</label><span> </span><i class="bi bi-envelope"></i><span> </span><strong><label style="color: rgb(245, 10, 10)"> *</label></strong>
-                <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="example@email.com" name="email" required autocomplete="off" />
-              </div>
-              <div class="mb-3">
-                <label for="nohp" class="form-label">Nomor WhatsApp</label><span> </span><i class="bi bi-whatsapp"></i><span> </span><strong><label style="color: rgb(245, 10, 10)"> *</label></strong>
-                <input type="number" class="form-control" id="nohp" aria-describedby="nohp" placeholder="085255XXXXXX" name="nohp" required autocomplete="off" />
-              </div>
-              <div class="mb-3">
-                <strong><label style="color: rgb(245, 10, 10)">*</label></strong
-                ><label style="color: rgb(0, 0, 0)">Wajib Diisi!</label>
-              </div>
-              <div class="container">
-                <div class="row">
-                  <div class="col d-flex justify-content-center">
-                    <button type="submit" class="btn btn-success btn-kirim">Kirim</button>
-                    <button class="btn btn-warning btn-loading d-none" type="button" disabled>
-                      <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
-                      Loading...
-                    </button>
-                  </div>
+            <div class="row justify-content-center">
+              <div class="col">
+                <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+                  <strong>Terima Kasih!</strong> Data Ananda sudah terekam!!
+                  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>
+                <p>Silahkan lengkapi data berikut ini!</p>
+                <form name="contact-form">
+                  <div class="mb-3">
+                    <label for="Name" class="form-label">Nama Lengkap</label><span> </span><i class="bi bi-pencil"></i><span> </span><strong><label style="color: rgb(245, 10, 10)">*</label></strong>
+                    <select class="form-select" aria-label="Default select example" name="nama" required autocomplete="off" autofocus>
+                      <option selected></option>
+                      <option value="AFDALIA RAMADHANI">AFDALIA RAMADHANI</option>
+                      <option value="AHMAD NAJI GHASSAN">AHMAD NAJI GHASSAN</option>
+                      <option value="ANDI MUH. ARIEF GUFRAN">ANDI MUH. ARIEF GUFRAN</option>
+                      <option value="ARIFATUL HUSNA">ARIFATUL HUSNA</option>
+                      <option value="ASDAR WIJAYA">ASDAR WIJAYA</option>
+                      <option value="ASRI MAHENDRA">ASRI MAHENDRA</option>
+                      <option value="BAHRUL ULUM BURHAN">BAHRUL ULUM BURHAN</option>
+                      <option value="FARAH NUR KHOIRUN NISA">FARAH NUR KHOIRUN NISA</option>
+                      <option value="FURQAN ALIM PRATAMA">FURQAN ALIM PRATAMA</option>
+                      <option value="HADIRATUL AWALIAH">HADIRATUL AWALIAH</option>
+                      <option value="HAERUN ANNISA">HAERUN ANNISA</option>
+                      <option value="KHAERUNNISYA">KHAERUNNISYA</option>
+                      <option value="M. ADRIAN MAULANA A">M. ADRIAN MAULANA A</option>
+                      <option value="M. AINUR RAFI">M. AINUR RAFI</option>
+                      <option value="MIFTAHUL KHAERAH NUR">MIFTAHUL KHAERAH NUR</option>
+                      <option value="MUH NURUL TAWAF">MUH NURUL TAWAF</option>
+                      <option value="MUH RASYA MAULDIANSAH">MUH RASYA MAULDIANSAH</option>
+                      <option value="MUH. DINUL ISLAM">MUH. DINUL ISLAM</option>
+                      <option value="MUH. IRHAM SYAPUTRA">MUH. IRHAM SYAPUTRA</option>
+                      <option value="MUH. RAIHAN ARIEF CAMA">MUH. RAIHAN ARIEF CAMA</option>
+                      <option value="MUH. REZKY DERMAWAN">MUH. REZKY DERMAWAN</option>
+                      <option value="MUHAMMAD ADIL">MUHAMMAD ADIL</option>
+                      <option value="MUTHIA FIRMAN">MUTHIA FIRMAN</option>
+                      <option value="NABILA SALSABILA">NABILA SALSABILA</option>
+                      <option value="NADIA AFNANIA TAUHID">NADIA AFNANIA TAUHID</option>
+                      <option value="NUR KAMARIAH">NUR KAMARIAH</option>
+                      <option value="NUR RIZQI ARIFANI HAFID">NUR RIZQI ARIFANI HAFID</option>
+                      <option value="NURUL SYIFA AZZAHRA">NURUL SYIFA AZZAHRA</option>
+                      <option value="PUTRI ANASTASYA">PUTRI ANASTASYA</option>
+                      <option value="PUTRI MUTMAINNAH">PUTRI MUTMAINNAH</option>
+                      <option value="RISDA NURAZIZAH">RISDA NURAZIZAH</option>
+                      <option value="SALSABILA">SALSABILA</option>
+                      <option value="SRI RESKI AMALIA">SRI RESKI AMALIA</option>
+                      <option value="SRI WAHYUNI">SRI WAHYUNI</option>
+                    </select>
+                  </div>
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Email</label><span> </span><i class="bi bi-envelope"></i><span> </span><strong><label style="color: rgb(245, 10, 10)"> *</label></strong>
+                    <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="example@email.com" name="email" required autocomplete="off" />
+                  </div>
+                  <div class="mb-3">
+                    <label for="nohp" class="form-label">Nomor WhatsApp</label><span> </span><i class="bi bi-whatsapp"></i><span> </span><strong><label style="color: rgb(245, 10, 10)"> *</label></strong>
+                    <input type="number" class="form-control" id="nohp" aria-describedby="nohp" placeholder="085255XXXXXX" name="nohp" required autocomplete="off" />
+                  </div>
+                  <div class="mb-3">
+                    <strong><label style="color: rgb(245, 10, 10)">*</label></strong
+                    ><label>Wajib Diisi!</label>
+                  </div>
+                  <div class="container pb-2">
+                    <div class="row">
+                      <div class="col d-flex justify-content-center">
+                        <button type="submit" class="btn btn-light fw-bold btn-kirim">Kirim</button>
+                        <button class="btn btn-warning btn-loading d-none" type="button" disabled>
+                          <span class="spinner-border fw-bold spinner-border-sm" role="status" aria-hidden="true"></span>
+                          Loading...
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
               </div>
-            </form>
+            </div>
           </div>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#0d6efd"
           fill-opacity="1"
           d="M0,160L48,165.3C96,171,192,181,288,160C384,139,480,85,576,106.7C672,128,768,224,864,245.3C960,267,1056,213,1152,186.7C1248,160,1344,160,1392,160L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
         ></path>
-      </svg>
+      </svg> -->
     </section>
     <!-- Akhir Contact -->
 
     <!-- Footer -->
-    <footer class="bg-primary text-white text-center pb-5">
+    <footer class="bg-primary text-white text-center py-1">
       <p>Created with <i class="bi bi-heart-fill text-danger"></i> by <a href="https://www.instagram.com/hardiwan10/" class="text-white fw-bold">Hardiwan</a></p>
     </footer>
     <!-- Akhir Footer -->
